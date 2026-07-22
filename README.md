@@ -26,6 +26,6 @@ The analysis is based on transaction records containing order details, revenue, 
 **Recommendation** 
 Based on the implementation of a self-service BI framework and real-time interactive parameter controls, **it is recommended to adopt this dynamic KPI monitoring model for ongoing executive reporting and data-driven decision-making.**
 
-[Link to my Tableau Public Dashboard]([https://public.tableau.com/views/...](https://public.tableau.com/views/CoffeeSalesProfitabilityAnalitics/CoffeeSalesProfitabilityAnalytics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[Link to my Tableau Public Dashboard](https://public.tableau.com/views/...](https://public.tableau.com/views/CoffeeSalesProfitabilityAnalitics/CoffeeSalesProfitabilityAnalytics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Tableau Dashboard](coffe.png)
+![Tableau Dashboard](coffee.png)
