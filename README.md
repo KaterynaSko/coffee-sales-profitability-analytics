@@ -2,7 +2,7 @@
 n Interactive Business Intelligence solution built in Tableau Public to monitor global coffee sales performance, analyze profitability margins, and investigate customer purchasing behavior.
 
 
-# ☕ Coffee Sales & Profitability Analytics Dashboard
+# Coffee Sales & Profitability Analytics Dashboard
 
 An interactive Business Intelligence solution built in **Tableau Public** to monitor global coffee sales performance, analyze profitability margins, and investigate customer purchasing behavior.
 
@@ -44,5 +44,4 @@ This project transforms raw transactional data into a self-service analytics das
 ---
 
 ## Dashboard Preview
-*(Add a screenshot of your dashboard here)*
-![Dashboard Preview](images/dashboard-preview.png)
+![Dashboard Preview](coffee_sales.png)
