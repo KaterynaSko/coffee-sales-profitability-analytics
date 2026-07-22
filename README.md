@@ -1,41 +1,31 @@
-# Coffee sales profitability analytics
-Interactive Business Intelligence solution built in Tableau Public to monitor global coffee sales performance, analyze profitability margins, and investigate customer purchasing behavior.
+**Coffee Sales & Profitability Analysis: Global Performance & KPI Evaluation**
 
+**Project Overview** 
+This project focuses on tracking global sales performance, monitoring profitability margins, and analyzing customer purchasing behavior across a multi-year dataset. The goal is to provide stakeholders with deep insights into regional sales distribution, volatility trends, and high-value customer segments.
 
-# Coffee Sales & Profitability Analytics Dashboard
-An interactive Business Intelligence solution built in **Tableau Public** to monitor global coffee sales performance, analyze profitability margins, and investigate customer purchasing behavior.
+The analysis is conducted using an integrated BI and data workflow: 
+**MS Excel** for foundational data preparation, 
+**Tableau Public** for dynamic modeling and interactive executive dashboards, and advanced calculated logic for business metrics.
 
-🔗 **[View Live Dashboard on Tableau Public](https://public.tableau.com/views/CoffeeSalesProfitabilityAnalitics/CoffeeSalesProfitabilityAnalytics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
----
+**Dataset Description** 
+The analysis is based on transaction records containing order details, revenue, profit, and customer behavior metrics:
+* **Order Date / Year**: Temporal dimensions spanning from January 2019 to August 2022.
+* **Sales & Profit**: Financial metrics tracking monetary value and net earnings.
+* **Geographic & Product Attributes**: Data segmented by country, coffee type, and roast type.
 
-## Project Overview
-This project transforms raw transactional data into a self-service analytics dashboard, enabling stakeholders to track key performance indicators (KPIs), evaluate regional distributions, and monitor sales volatility over time.
+**Tech Stack & Methodology**
+* **MS Excel:** Utilized for initial data structuring, cleaning, and preliminary data aggregation.
+* **Tableau Public / Desktop:** Built advanced calculated fields and user-driven parameters for dynamic YoY (Year-over-Year) comparisons, ARPPU (Average Revenue Per Paying User), and profit margins. Designed interactive UI components, including custom KPI cards with conditional formatting.
+* **Advanced Visualizations:** Implemented **Box-and-whisker plots** for statistical order-weight distribution analysis and **Dual-axis charts** for trend correlation.
 
-## Key Business Questions Addressed:
-* How do current year (CY) sales and orders compare against the previous year (PY) using dynamic YoY metrics?
-* Which countries and product types drive the highest profit margins?
-* What are the seasonal trends and anomalies in sales performance?
----
+**Key Findings & Insights**
+1. **Financial Performance:** Dynamic YoY metrics successfully tracked annual growth shifts in orders, sales, and total profit against previous periods.
+2. **Customer & Product Segmentation:** Identified core regional clusters and top-performing product categories driving the highest profit margins.
+3. **Trend Volatility:** Moving averages and monthly difference tracking highlighted seasonal peaks and underperforming business periods.
 
-## Tools & Technologies
-* **Tableau Public / Desktop:** Data visualization, calculated fields, parameters, dashboard layout design.
-* **MS Excel:** Data preparation, cleaning, and preliminary structuring.
----
+**Recommendation** 
+Based on the implementation of a self-service BI framework and real-time interactive parameter controls, **it is recommended to adopt this dynamic KPI monitoring model for ongoing executive reporting and data-driven decision-making.**
 
-## Key Features & Technical Implementation
-* **Dynamic YoY & KPI Calculations:** Utilized advanced calculated fields combined with user-driven parameters to seamlessly switch and compare metrics across years.
-* **Advanced Visualizations:**
-  * **Box-and-whisker plots** for statistical distribution analysis of order weights by country.
-  * **Dual-axis charts** to correlate ARPPU (Average Revenue Per Paying User) with profitability trends.
-* **Conditional Formatting & UI/UX Design:** Implemented custom KPI cards with automated color-coded trend indicators (▲/▼) for instant performance assessment.
-* **Interactive Filtering:** Designed a multi-level cross-filtering system (Country, Coffee Type, Roast Type) for custom stakeholder slicing.
----
+[Link to my Tableau Public Dashboard]([https://public.tableau.com/views/...](https://public.tableau.com/views/CoffeeSalesProfitabilityAnalitics/CoffeeSalesProfitabilityAnalytics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
-## Key Insights & Results
-* **Actionable Regional Insights:** Identified high-value customer clusters and top-performing regional markets.
-* **Volatility Monitoring:** Tracked monthly sales differences and moving averages to highlight seasonal peaks and slow periods.
-* **Self-Service Capability:** Eliminated static reporting by delivering a fully interactive dashboard for data-driven decision-making.
----
-
-## Dashboard Preview
-![Dashboard Preview](coffee.png)
+![Tableau Dashboard](coffe.png)
